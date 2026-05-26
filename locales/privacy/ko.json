@@ -1,0 +1,135 @@
+{
+  "title": "개인정보 보호정책",
+  "metaTagline": "메모리 카드 게임",
+  "metaLastUpdated": "2026년 4월 4일",
+  "metaLastUpdatedIso": "2026-04-04",
+  "intro": "이 개인정보 보호정책은 귀하가 모바일 애플리케이션 <strong>Pairloom</strong>(“앱”)을 사용할 때 <strong>Sergey Kosilov</strong>(인디 개발자, “당사”, “당사”)가 정보를 처리하는 방법을 설명합니다. 여기에는 해당 빌드를 제공하는 웹 브라우저에서 앱을 실행하는 경우도 포함됩니다. 선택적 인앱 구매도 포함됩니다.",
+  "sections": [
+    {
+      "heading": "1. 우리는 누구입니까",
+      "paragraphs": [
+        "데이터 관리자: <strong>Sergey Kosilov</strong>(인디 개발자)<br />연락처: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    },
+    {
+      "heading": "2. 요약",
+      "bullets": [
+        "저희는 <strong>not</strong> 앱에서 계정을 생성해야 합니다.",
+        "저희는 <strong>not</strong> 게임 플레이 진행 상황을 동기화하기 위해 자체 서버를 운영하고 있습니다. 게임 데이터는 <strong>on your device</strong>에 저장됩니다.",
+        "맞춤형 카드 얼굴로 선택한 이미지는 기기의 <strong>local app storage</strong>에 보관됩니다. 당사는 해당 기능을 위해 해당 데이터를 당사의 인프라에 업로드하지 않습니다.",
+        "귀하가 구독 또는 평생 잠금 해제를 구매하거나 복원하는 경우, <strong>Apple</strong>, <strong>Google</strong> 및 당사의 청구 파트너 <strong>RevenueCat</strong>는 해당 정책에 따라 결제 관련 데이터를 처리합니다.",
+        "본 정책에 설명된 앱 버전에는 <strong>not</strong>제3자 분석 또는 충돌 보고 SDK가 포함되어 있습니다. 나중에 추가할 경우 본 정책을 업데이트하고 필요한 경우 동의를 얻습니다."
+      ]
+    },
+    {
+      "heading": "3. 당사가 처리하는 정보",
+      "subsections": [
+        {
+          "title": "3.1 로컬 앱 데이터(기기에 있음)",
+          "paragraphs": [
+            "앱은 플랫폼의 저장소를 사용하여 기본 설정 및 게임 관련 정보를 로컬에 저장합니다(예: iOS/Android의 경우 <strong>Capacitor Preferences</strong>, 해당되는 경우 <strong>browser local storage</strong>). 여기에는 앱 사용 방법에 따라 다음이 포함될 수 있습니다."
+          ],
+          "bullets": [
+            "게임 및 UI 설정(예: 보드 크기, 카드 테마, 타이포그래피 및 관련 옵션).",
+            "언어/로케일 기본 설정.",
+            "밝거나 어두운 모양 기본 설정.",
+            "진행 및 통계(예: 퀘스트 진행, 일반 진행, 최고 시간 또는 앱이 기록하는 점수).",
+            "귀하가 사용하는 게임플레이 도우미 (예: 힌트 사용 카운터 또는 연속 데이터).",
+            "인앱 보상 또는 세션에 사용되는 타이밍 메타데이터(예: 마지막 세션 타임스탬프)(해당 기능이 활성화된 경우).",
+            "선택적 접근성 관련 텍스트는 앱에서 구성한 것으로 대체됩니다.",
+            "A <strong>local counter</strong>구독하지 않은 동안 프리미엄 기능을 사용한 완성된 게임은 앱의 제한된 무료 프리미엄 체험을 시행하는 데에만 사용됩니다. 옵션."
+          ],
+          "paragraphsAfter": [
+            "이 데이터는 앱 데이터를 지우거나 사이트 데이터(브라우저)를 지우거나 앱을 제거하지 않는 한 기기에 남아 있습니다. 설치와 관련된 게임플레이 백엔드를 실행하지 않기 때문에 원격으로 액세스할 수 없습니다."
+          ]
+        },
+        {
+          "title": "3.2 사진 및 미디어(프리미엄 기능)",
+          "paragraphs": [
+            "카드의 사용자 정의 사진을 사용하는 경우 앱은 해당 흐름에 맞는 사진 라이브러리 또는 카메라 <strong>only when you initiate</strong>에 액세스합니다. 선택한 이미지는 <strong>local app storage</strong>(또는 일부 브라우저 빌드에서는 데이터 URL과 같은 브라우저 내 데이터로)에 저장되므로 카드에 표시할 수 있습니다. 당사는 앱의 일부로 사용자 정의 이미지의 클라우드 업로드를 운영하지 않습니다."
+          ]
+        },
+        {
+          "title": "3.3 구매 및 구독",
+          "paragraphs": [
+            "구매는 <strong>Apple App Store</strong> 또는 <strong>Google Play</strong>에 의해 처리됩니다. 우리는 <strong>RevenueCat</strong>를 사용하여 앱 내 자격 및 구독 상태를 확인합니다. RevenueCat은 해당 서비스를 제공하는 데 필요한 식별자 및 구매 이벤트를 처리할 수 있습니다. Apple과 Google은 구매를 귀하의 스토어 계정과 연결할 수 있습니다."
+          ],
+          "links": [
+            {
+              "label": "Apple 개인정보 보호정책",
+              "href": "https://www.apple.com/legal/privacy/"
+            },
+            {
+              "label": "Google 개인정보 보호정책",
+              "href": "https://policies.google.com/privacy"
+            },
+            {
+              "label": "RevenueCat",
+              "href": "https://www.revenuecat.com/privacy"
+            }
+          ]
+        },
+        {
+          "title": "3.4 기기 기능",
+          "paragraphs": [
+            "앱은 <strong>haptics</strong>, <strong>status bar</strong> 스타일 지정 또는 <strong>keyboard</strong> 동작과 같은 장치 기능을 사용할 수 있습니다. 이러한 기능은 경험을 개선하기 위해 로컬로 사용되며 귀하의 프로필을 구축하기 위해 당사에서 사용되지 않습니다."
+          ]
+        },
+        {
+          "title": "3.5 분석 및 충돌 보고",
+          "paragraphs": [
+            "본 정책에 따라 출시된 앱의 코드베이스 및 종속성은 <strong>not</strong>통합된 제3자 분석 또는 충돌 보고 서비스를 포함합니다. 진단 로깅은 <strong>development builds only</strong>에 나타날 수 있으며 프로덕션 최종 사용자를 위한 것이 아닙니다. 나중에 분석 또는 충돌 보고를 추가하는 경우 당사는 이 정책을 업데이트하고 법률에 따라 요구되는 경우 귀하의 동의를 구할 것입니다."
+          ]
+        },
+        {
+          "title": "3.6 링크 및 외부 콘텐츠",
+          "paragraphs": [
+            "앱은 귀하의 브라우저 또는 인앱 브라우저 보기에서 웹 페이지(예: 법률 문서 또는 구독 관리)를 열 수 있습니다. 이러한 사이트는 제3자에 의해 운영되며 자체적인 개인정보 보호 관행을 가지고 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. 법적 근거(EEA/영국 사용자)",
+      "paragraphs": [
+        "해당 법률에 따라 법적 근거가 필요한 경우: 당사는 귀하와 함께 구매 관련 데이터를 <strong>perform our contract</strong>로 처리합니다(프리미엄 기능 제공). 당사는 귀하의 권리와 균형을 이루면서 앱 운영 및 보안에 있어 <strong>your use of the App</strong> 및 해당되는 경우 <strong>legitimate interests</strong>를 기준으로 로컬 앱 데이터를 처리합니다."
+      ]
+    },
+    {
+      "heading": "5. 보관",
+      "paragraphs": [
+        "로컬 데이터는 귀하가 제거하거나 앱을 제거할 때까지(또는 웹 빌드를 위한 브라우저 저장 공간을 지울 때까지) 유지됩니다. Apple, Google 또는 RevenueCat이 보유한 기록은 해당 정책에 설명된 대로 보관됩니다."
+      ]
+    },
+    {
+      "heading": "6. 어린이",
+      "paragraphs": [
+        "앱은 해당 지역에서 부모의 허락 없이 데이터 처리에 동의하도록 요구하는 연령 미만의 어린이를 대상으로 하지 않습니다. 당사가 어린이로부터 개인 정보를 부적절하게 수집했다고 생각하시는 경우, 당사에 연락해 주시면 합당한 조치를 취해 이를 해결하도록 하겠습니다."
+      ]
+    },
+    {
+      "heading": "7. 귀하의 권리",
+      "paragraphs": [
+        " 귀하의 위치에 따라 귀하는 특정 처리에 액세스, 수정, 삭제 또는 제한하거나 데이터를 반대하거나 이동할 권리가 있을 수 있습니다. 위 이메일로 연락주세요. 귀하는 또한 현지 데이터 보호 당국에 불만을 제기할 수도 있습니다. 구매 및 영수증 데이터의 경우 Apple 또는 Google이 해당 정책에 따른 기본 연락처가 될 수 있습니다."
+      ]
+    },
+    {
+      "heading": "8. 해외 전송",
+      "paragraphs": [
+        "당사의 서비스 제공업체는 귀하가 거주하는 국가가 아닌 다른 국가에서 데이터를 처리할 수 있습니다. 필요한 경우 적절한 보호 장치(예: 표준 계약 조항)를 사용합니다."
+      ]
+    },
+    {
+      "heading": "9. 변경 사항",
+      "paragraphs": [
+        "당사는 본 정책을 수시로 업데이트할 수 있습니다. 이 페이지에 새 버전을 게시하고 \"최종 업데이트\" 날짜를 업데이트할 예정입니다. 변경 후에도 앱을 계속 사용한다는 것은 법률이 허용하는 한도 내에서 업데이트된 정책에 동의한다는 것을 의미합니다."
+      ]
+    },
+    {
+      "heading": "10. 문의",
+      "paragraphs": [
+        "질문: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    }
+  ]
+}
