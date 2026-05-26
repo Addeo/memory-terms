@@ -30,9 +30,10 @@ git push -u origin main
 ```
 
 3. In the repo: **Settings → Pages → Build and deployment → Source**:
-   - Branch: `main`
-   - Folder: `/ (root)`
-4. After deploy (1–2 minutes), URLs look like:
+   - Branch: **`gh-pages`**
+   - Folder: **`/ (root)`**
+4. Pushes to `main` auto-update `gh-pages` via GitHub Actions (`.github/workflows/deploy-pages.yml`).
+5. After deploy (1–2 minutes), URLs look like:
 
 ```
 https://<user>.github.io/<repo>/terms.html
