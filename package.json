@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "lintFormat": "node -e \"process.exit(0)\"",
-    "format": "node -e \"process.exit(0)\""
+    "format": "node -e \"process.exit(0)\"",
+    "translate": "python3 scripts/translate-locales.py"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "siteTitle": "pairloom — 법률",
+  "pageHeading": "법적 문서",
+  "operator": "운영자: Sergey Kosilov(인디 개발자)",
+  "documents": "문서",
+  "privacyPolicy": "개인정보 보호정책",
+  "termsOfUse": "이용 약관",
+  "forApp": "앱 링크",
+  "allDocuments": "←모든 문서",
+  "selectLanguage": "언어",
+  "translationNotice": "편의를 위해 기계 번역되었습니다. 텍스트가 다를 경우 영어 버전이 우선합니다.",
+  "loading": "로드 중…",
+  "loadError": "이 페이지를 로드할 수 없습니다. 다시 시도하거나 영어로 전환하세요.",
+  "seeAlso": "참조",
+  "metaLastUpdated": "마지막 업데이트"
+}

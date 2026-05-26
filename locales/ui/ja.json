@@ -1,0 +1,16 @@
+{
+  "siteTitle": "ペアルーム — 法律",
+  "pageHeading": "法的文書",
+  "operator": "オペレーター: Sergey Kosilov (インディー開発者)",
+  "documents": "文書",
+  "privacyPolicy": "プライバシーポリシー",
+  "termsOfUse": "利用規約",
+  "forApp": "アプリのリンク",
+  "allDocuments": "← すべての文書",
+  "selectLanguage": "言語",
+  "translationNotice": "機械翻訳利便性。本文が異なる場合は英語版が優先されます。",
+  "loading": "読み込み中…",
+  "loadError": "このページを読み込めませんでした。もう一度試すか、英語に切り替えてください。",
+  "seeAlso": "関連項目",
+  "metaLastUpdated": "最終更新日"
+}

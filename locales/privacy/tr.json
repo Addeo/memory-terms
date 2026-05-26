@@ -1,0 +1,135 @@
+{
+  "title": "Gizlilik Politikası",
+  "metaTagline": "hafıza kartı oyunu",
+  "metaLastUpdated": "4 Nisan 2026",
+  "metaLastUpdatedIso": "2026-04-04",
+  "intro": "Bu Gizlilik Politikası, <strong>Sergey Kosilov</strong>'nin (bağımsız geliştirici; \"biz\", \"bize\"), mobil uygulamayı <strong>Pairloom</strong> (\"Uygulama\") kullandığınızda, bu yapıyı kullanıma sunduğumuz bir web tarayıcısında çalıştırdığınızda da dahil olmak üzere bilgileri nasıl işlediğini açıklar. Ayrıca isteğe bağlı uygulama içi satın alımları da kapsar.",
+  "sections": [
+    {
+      "heading": "1. Biz kimiz",
+      "paragraphs": [
+        "Veri denetleyicisi: <strong>Sergey Kosilov</strong> (bağımsız geliştirici)<br />İletişim: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    },
+    {
+      "heading": "2. Özet",
+      "bullets": [
+        "Uygulamada bir hesap oluşturmanızı <strong>not</strong> zorunlu tutuyoruz.",
+        "Oyun ilerlemenizi senkronize etmek için kendi sunucularımızı <strong>not</strong> işletiyoruz; oyun verileri saklanır <strong>on your device</strong>.",
+        "Özel kart yüzleri için seçtiğiniz görseller cihazınızda <strong>local app storage</strong>'de saklanır. Bunları bu özellik için altyapımıza yüklemiyoruz.",
+        "Bir abonelik satın alırsanız veya geri yüklerseniz veya ömür boyu kilidi açarsanız, <strong>Apple</strong>, <strong>Google</strong> ve faturalandırma ortağımız <strong>RevenueCat</strong> ödemeyle ilgili verileri kendi politikalarına göre işler.",
+        "Bu Politika tarafından açıklanan Uygulama sürümü, <strong>not</strong> üçüncü taraf analitikleri veya kilitlenme raporlama SDK'larını yerleşik hale getirir. Bunları daha sonra eklersek bu Politikayı güncelleyeceğiz ve gerektiğinde onay alacağız."
+      ]
+    },
+    {
+      "heading": "3. İşlediğimiz bilgiler",
+      "subsections": [
+        {
+          "title": "3.1 Yerel uygulama verileri (cihazınızda)",
+          "paragraphs": [
+            "Uygulama, platformun depolama alanını kullanarak tercihleri ​​ve oyunla ilgili bilgileri yerel olarak depolar (örneğin, iOS/Android'de <strong>Capacitor Preferences</strong> ve geçerli olduğunda <strong>browser local storage</strong>). Bu, Uygulamayı nasıl kullandığınıza bağlı olarak şunları içerebilir:"
+          ],
+          "bullets": [
+            "Oyun ve kullanıcı arayüzü ayarları (örneğin pano boyutu, kart temaları, tipografi ve ilgili seçenekler).",
+            "Dil / yerel ayar tercihi.",
+            "Açık veya koyu görünüm tercihi.",
+            "İlerleme ve istatistikler (örneğin görev ilerlemesi, genel ilerleme, en iyi zamanlar veya Uygulamanın bunları kaydettiği puanlar).",
+            "Kullandığınız oyun yardımcıları (için) örneğin ipucu kullanım sayaçları veya geçerliyse seri verileri).",
+            "Uygulama içi ödüller veya oturumlar için kullanılan zamanlama meta verileri (örneğin, bu özellikler etkinse, son oturum zaman damgaları).",
+            "Uygulamada yapılandırdığınız isteğe bağlı erişilebilirlikle ilgili metin geçersiz kılar.",
+            "A <strong>local counter</strong> abone olmadığınız sırada premium özellikleri kullanan tamamlanmış oyunlar, yalnızca Uygulamanın sınırlı ücretsiz premium denemesini uygulamak için kullanılır seçenekler."
+          ],
+          "paragraphsAfter": [
+            "Uygulama verilerini temizlemediğiniz, site verilerini (tarayıcı) temizlemediğiniz veya Uygulamayı kaldırmadığınız sürece bu veriler cihazınızda kalır. Kurulumunuza bağlı bir oyun arka ucu çalıştırmadığımız için uzaktan erişemiyoruz."
+          ]
+        },
+        {
+          "title": "3.2 Fotoğraflar ve medya (premium özellik)",
+          "paragraphs": [
+            "Kartlarda özel resimler kullanırsanız, Uygulama fotoğraf kitaplığınıza veya kameranıza <strong>only when you initiate</strong> bu akışa erişir. Seçilen resimler <strong>local app storage</strong>'de (veya bazı tarayıcı yapılarında, veri URL'leri gibi tarayıcı içi veriler olarak) saklanır, böylece kartlarda gösterilebilirler. Uygulamanın bir parçası olarak özel görsellerinizin buluta yüklenmesini gerçekleştirmiyoruz."
+          ]
+        },
+        {
+          "title": "3.3 Satın almalar ve abonelikler",
+          "paragraphs": [
+            "Satın almalar <strong>Apple App Store</strong> veya <strong>Google Play</strong> tarafından işlenir. Uygulama içindeki yetkileri ve abonelik durumunu doğrulamak için <strong>RevenueCat</strong> kullanıyoruz. RevenueCat, bu hizmeti sağlamak için gereken tanımlayıcıları ve satın alma olaylarını işleyebilir. Apple ve Google, satın alma işlemlerini mağaza hesabınızla ilişkilendirebilir."
+          ],
+          "links": [
+            {
+              "label": "Apple Gizlilik Politikası",
+              "href": "https://www.apple.com/legal/privacy/"
+            },
+            {
+              "label": "Google Gizliliği Politika",
+              "href": "https://policies.google.com/privacy"
+            },
+            {
+              "label": "RevenueCat",
+              "href": "https://www.revenuecat.com/privacy"
+            }
+          ]
+        },
+        {
+          "title": "3.4 Cihaz özellikleri",
+          "paragraphs": [
+            "Uygulama, <strong>haptics</strong>, <strong>status bar</strong> stili veya <strong>keyboard</strong> davranışı gibi cihaz özelliklerini kullanabilir. Bu özellikler, deneyimi geliştirmek için yerel olarak kullanılır ve tarafımızca sizin profilinizi oluşturmak için kullanılmaz."
+          ]
+        },
+        {
+          "title": "3.5 Analizler ve kilitlenme raporlama",
+          "paragraphs": [
+            "Uygulamanın kod tabanı ve bağımlılıkları, bu Politika kapsamında yayınlandığı şekliyle, <strong>not</strong> entegre üçüncü taraf analizlerini veya kilitlenme raporlama hizmetlerini içerir. Tanılama günlüğü <strong>development builds only</strong>'de görünebilir ve üretimdeki son kullanıcılara yönelik değildir. Daha sonra analiz veya kilitlenme raporlaması eklersek, bu Politikayı güncelleyeceğiz ve yasaların gerektirdiği durumlarda izninizi isteyeceğiz."
+          ]
+        },
+        {
+          "title": "3.6 Bağlantılar ve harici içerik",
+          "paragraphs": [
+            "Uygulama, tarayıcınızda veya uygulama içi tarayıcı görünümünde web sayfalarını (örneğin yasal belgeler veya abonelik yönetimi) açabilir. Bu siteler üçüncü taraflarca işletilmektedir ve kendi gizlilik uygulamalarına sahiptirler."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Yasal dayanaklar (AEA / Birleşik Krallık kullanıcıları)",
+      "paragraphs": [
+        "Yürürlükteki yasaların yasal bir dayanak gerektirdiği durumlarda: satın almayla ilgili verileri sizinle <strong>perform our contract</strong> işliyoruz (premium özellikler sağlayarak); Yerel uygulama verilerini, Uygulamanın çalıştırılması ve güvenliğinin sağlanmasında <strong>your use of the App</strong> ve ilgili durumlarda <strong>legitimate interests</strong> temel alınarak, haklarınızla dengelenmiş şekilde işleriz."
+      ]
+    },
+    {
+      "heading": "5. Saklama",
+      "paragraphs": [
+        "Yerel veriler, siz onu kaldırana veya Uygulamayı kaldırana (veya web yapıları için tarayıcı depolama alanını temizleyene) kadar kalır. Apple, Google veya RevenueCat tarafından tutulan kayıtlar, politikalarında açıklandığı şekilde saklanır."
+      ]
+    },
+    {
+      "heading": "6. Çocuklar",
+      "paragraphs": [
+        "Uygulama, bölgenizin ebeveyn izni olmadan veri işlemeye izin vermesi gereken yaşın altındaki çocuklara yönelik değildir. Bir çocuktan uygunsuz bir şekilde kişisel bilgi topladığımızı düşünüyorsanız bizimle iletişime geçin; bu durumu ele almak için makul adımları atacağız."
+      ]
+    },
+    {
+      "heading": "7. Haklarınız",
+      "paragraphs": [
+        "Konumunuza bağlı olarak, belirli işlemlere erişme, bunları düzeltme, silme veya kısıtlama ya da verilere itiraz etme veya verileri taşıma haklarına sahip olabilirsiniz. Yukarıdaki e-postadan bize ulaşın. Ayrıca yerel veri koruma yetkilinize şikayette bulunabilirsiniz. Satın alma ve fatura verileri için, politikaları kapsamında Apple veya Google birincil iletişim kişisi olabilir."
+      ]
+    },
+    {
+      "heading": "8. Uluslararası aktarımlar",
+      "paragraphs": [
+        "Hizmet sağlayıcılarımız sizin ülkeniz dışındaki ülkelerde de veri işleyebilir. Gerektiğinde uygun önlemleri kullanırlar (standart sözleşme maddeleri gibi)."
+      ]
+    },
+    {
+      "heading": "9. Değişiklikler",
+      "paragraphs": [
+        "Bu Politikayı zaman zaman güncelleyebiliriz. Yeni sürümü bu sayfada yayınlayacağız ve “Son güncelleme” tarihini güncelleyeceğiz. Değişikliklerden sonra Uygulamayı kullanmaya devam etmeniz, yasaların izin verdiği ölçüde güncellenen Politikayı kabul ettiğiniz anlamına gelir."
+      ]
+    },
+    {
+      "heading": "10. İletişim",
+      "paragraphs": [
+        "Sorular: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    }
+  ]
+}

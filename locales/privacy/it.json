@@ -1,0 +1,135 @@
+{
+  "title": "Informativa sulla privacy",
+  "metaTagline": "memory card game",
+  "metaLastUpdated": "4 aprile 2026",
+  "metaLastUpdatedIso": "2026-04-04",
+  "intro": "La presente Informativa sulla privacy descrive come <strong>Sergey Kosilov</strong> (sviluppatore indipendente; \"noi\", \"ci\") gestisce le informazioni quando utilizzi l'applicazione mobile <strong>Pairloom</strong> (l'\"App\"), incluso quando la esegui in un browser Web in cui rendiamo disponibile tale build. Copre anche gli acquisti in-app opzionali.",
+  "sections": [
+    {
+      "heading": "1. Chi siamo",
+      "paragraphs": [
+        "Titolare del trattamento: <strong>Sergey Kosilov</strong> (sviluppatore indipendente)<br />Contatto: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    },
+    {
+      "heading": "2. Riepilogo",
+      "bullets": [
+        "Noi <strong>not</strong> richiediamo la creazione di un account nell'app.",
+        "Noi <strong>not</strong> gestiamo i nostri server per sincronizzare i tuoi progressi di gioco; i dati di gioco vengono memorizzati in <strong>on your device</strong>.",
+        "Le immagini che scegli per le facce delle carte personalizzate vengono conservate in <strong>local app storage</strong> sul tuo dispositivo. Non li carichiamo sulla nostra infrastruttura per tale funzionalità.",
+        "Se acquisti o ripristini un abbonamento o uno sblocco a vita, <strong>Apple</strong>, <strong>Google</strong> e il nostro partner di fatturazione <strong>RevenueCat</strong> elaborano i dati relativi ai pagamenti in base alle loro politiche.",
+        "La versione dell'app descritta da questa Politica non <strong>not</strong> incorpora analisi di terze parti o SDK di segnalazione degli arresti anomali. Se li aggiungeremo in seguito, aggiorneremo questa Politica e otterremo il consenso ove richiesto."
+      ]
+    },
+    {
+      "heading": "3. Informazioni che trattiamo",
+      "subsections": [
+        {
+          "title": "3.1 Dati dell'app locale (sul tuo dispositivo)",
+          "paragraphs": [
+            "L'App memorizza le preferenze e le informazioni relative al gioco localmente utilizzando lo spazio di archiviazione della piattaforma (ad esempio <strong>Capacitor Preferences</strong> su iOS/Android e <strong>browser local storage</strong> dove applicabile). Ciò può includere, a seconda di come utilizzi l'App:"
+          ],
+          "bullets": [
+            "Impostazioni di gioco e interfaccia utente (ad esempio dimensioni del tabellone, temi delle carte, tipografia e opzioni correlate).",
+            "Preferenza lingua/impostazione internazionale.",
+            "Preferenza per l'aspetto chiaro o scuro.",
+            "Progressi e statistiche (ad esempio progresso delle missioni, progresso generale, tempi migliori o punteggi in cui l'App li registra).",
+            "Assistenti di gioco che utilizzi (per esempio contatori di utilizzo dei suggerimenti o dati sulle serie, se applicabili).",
+            "Metadati temporali utilizzati per premi o sessioni in-app (ad esempio timestamp dell'ultima sessione), se tali funzionalità sono abilitate.",
+            "Il testo opzionale relativo all'accessibilità sovrascrive quello configurato nell'app.",
+            "A <strong>local counter</strong> di giochi completati che utilizzavano funzionalità premium mentre non sei abbonato, utilizzato solo per imporre la prova gratuita limitata dell'app premium opzioni."
+          ],
+          "paragraphsAfter": [
+            "Questi dati rimangono sul tuo dispositivo a meno che non cancelli i dati dell'app, cancelli i dati del sito (browser) o disinstalli l'app. Non possiamo accedervi da remoto perché non eseguiamo un backend di gioco legato alla tua installazione."
+          ]
+        },
+        {
+          "title": "3.2 Foto e contenuti multimediali (funzionalità premium)",
+          "paragraphs": [
+            "Se utilizzi immagini personalizzate sulle carte, l'app accede alla tua libreria di foto o fotocamera <strong>only when you initiate</strong> che scorre. Le immagini selezionate vengono archiviate in <strong>local app storage</strong> (o, in alcune build di browser, come dati interni al browser come URL di dati) in modo che possano essere visualizzate sulle schede. Non eseguiamo il caricamento nel cloud delle tue immagini personalizzate come parte dell'App."
+          ]
+        },
+        {
+          "title": "3.3 Acquisti e abbonamenti",
+          "paragraphs": [
+            "Gli acquisti vengono elaborati da <strong>Apple App Store</strong> o <strong>Google Play</strong>. Usiamo <strong>RevenueCat</strong> per convalidare i diritti e lo stato dell'abbonamento all'interno dell'app. RevenueCat può elaborare identificatori ed eventi di acquisto necessari per fornire tale servizio. Apple e Google potrebbero associare gli acquisti al tuo account del negozio."
+          ],
+          "links": [
+            {
+              "label": "Informativa sulla privacy di Apple",
+              "href": "https://www.apple.com/legal/privacy/"
+            },
+            {
+              "label": "Privacy di Google Policy",
+              "href": "https://policies.google.com/privacy"
+            },
+            {
+              "label": "RevenueCat",
+              "href": "https://www.revenuecat.com/privacy"
+            }
+          ]
+        },
+        {
+          "title": "3.4 Funzionalità del dispositivo",
+          "paragraphs": [
+            "L'App può utilizzare funzionalità del dispositivo come <strong>haptics</strong>, <strong>status bar</strong> stile o <strong>keyboard</strong> comportamento. Queste funzionalità vengono utilizzate localmente per migliorare l'esperienza e non vengono utilizzate da noi per creare un tuo profilo."
+          ]
+        },
+        {
+          "title": "3.5 Analisi e segnalazione di arresti anomali",
+          "paragraphs": [
+            "Il codice base e le dipendenze dell'App, come rilasciati ai sensi della presente Politica, <strong>not</strong> includono servizi integrati di analisi di terze parti o di segnalazione di arresti anomali. La registrazione diagnostica può essere visualizzata in <strong>development builds only</strong> e non è destinata agli utenti finali di produzione. Se in un secondo momento aggiungeremo analisi o segnalazioni di arresti anomali, aggiorneremo questa Politica e, ove richiesto dalla legge, chiederemo il tuo consenso."
+          ]
+        },
+        {
+          "title": "3.6 Collegamenti e contenuti esterni",
+          "paragraphs": [
+            "L'App può aprire pagine Web (ad esempio documenti legali o gestione degli abbonamenti) nel tuo browser o in una visualizzazione del browser in-app. Tali siti sono gestiti da terze parti e hanno le proprie pratiche sulla privacy."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Basi giuridiche (utenti SEE/Regno Unito)",
+      "paragraphs": [
+        "Laddove la legge applicabile richieda una base legale: elaboriamo i dati relativi agli acquisti per <strong>perform our contract</strong> con te (fornendo funzionalità premium); elaboriamo i dati dell'app locale in base a <strong>your use of the App</strong> e, ove pertinente, <strong>legitimate interests</strong> nel funzionamento e nella protezione dell'App, in equilibrio con i tuoi diritti."
+      ]
+    },
+    {
+      "heading": "5. Conservazione",
+      "paragraphs": [
+        "I dati locali rimangono finché non li rimuovi o non disinstalli l'app (o cancelli la memoria del browser per le build web). I record detenuti da Apple, Google o RevenueCat vengono conservati come descritto nelle relative politiche."
+      ]
+    },
+    {
+      "heading": "6. Bambini",
+      "paragraphs": [
+        "L'App non è rivolta ai bambini di età inferiore a quella richiesta dalla tua regione per acconsentire al trattamento dei dati senza il consenso dei genitori. Se ritieni che abbiamo raccolto informazioni personali da un bambino in modo inappropriato, contattaci e adotteremo misure ragionevoli per risolvere il problema."
+      ]
+    },
+    {
+      "heading": "7. I tuoi diritti",
+      "paragraphs": [
+        "A seconda della tua posizione, potresti avere i diritti di accesso, correzione, cancellazione o limitazione di determinati trattamenti oppure di opposizione o portabilità dei dati. Contattaci all'e-mail sopra. Puoi anche presentare un reclamo all'autorità locale per la protezione dei dati. Per i dati di acquisto e ricevuta, Apple o Google potrebbero essere il contatto principale in base alle loro politiche."
+      ]
+    },
+    {
+      "heading": "8. Trasferimenti internazionali",
+      "paragraphs": [
+        "I nostri fornitori di servizi potrebbero elaborare dati in paesi diversi dal tuo. Ove richiesto, utilizzano adeguate garanzie (quali clausole contrattuali tipo)."
+      ]
+    },
+    {
+      "heading": "9. Modifiche",
+      "paragraphs": [
+        "Potremmo aggiornare questa Politica di tanto in tanto. Pubblicheremo la nuova versione su questa pagina e aggiorneremo la data \"Ultimo aggiornamento\". L'uso continuato dell'App dopo le modifiche implica l'accettazione della Politica aggiornata, nella misura consentita dalla legge."
+      ]
+    },
+    {
+      "heading": "10. Contatto",
+      "paragraphs": [
+        "Domande: <a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    }
+  ]
+}

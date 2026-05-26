@@ -1,0 +1,135 @@
+{
+  "title": "隐私政策",
+  "metaTagline": "记忆卡游戏",
+  "metaLastUpdated": "2026年4月4日",
+  "metaLastUpdatedIso": "2026-04-04",
+  "intro": "本隐私政策描述了<strong>Sergey Kosilov</strong>（独立开发者；“我们”、“我们”）在您使用移动应用程序<strong>Pairloom</strong>（“应用程序”）时如何处理信息，包括当您在我们提供该版本的网络浏览器中运行它时。它还涵盖可选的应用内购买。",
+  "sections": [
+    {
+      "heading": "1。我们是谁",
+      "paragraphs": [
+        "数据控制者：<strong>Sergey Kosilov</strong>（独立开发者）<br />联系人：<a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    },
+    {
+      "heading": "2。摘要",
+      "bullets": [
+        "我们<strong>not</strong>要求您在应用程序中创建一个帐户。",
+        "我们<strong>not</strong>操作我们自己的服务器来同步您的游戏进度；游戏数据存储在<strong>on your device</strong>。",
+        "您为自定义卡面选择的图像保存在设备上的<strong>local app storage</strong>中。我们不会将它们上传到我们的基础设施来实现该功能。",
+        "如果您购买或恢复订阅或终身解锁，<strong>Apple</strong>、<strong>Google</strong>和我们的计费合作伙伴<strong>RevenueCat</strong>将根据其政策处理支付相关数据。",
+        "本政策描述的应用程序版本<strong>not</strong>嵌入了第三方分析或崩溃报告 SDK。如果我们稍后添加它们，我们将更新本政策并在需要时获得同意。"
+      ]
+    },
+    {
+      "heading": "3.我们处理的信息",
+      "subsections": [
+        {
+          "title": "3.1 本地应用程序数据（在您的设备上）",
+          "paragraphs": [
+            "应用程序使用平台存储在本地存储首选项和游戏相关信息（例如 iOS/Android 上的 <strong>Capacitor Preferences</strong> 和适用时的 <strong>browser local storage</strong>）。根据您使用应用程序的方式，这可能包括："
+          ],
+          "bullets": [
+            "游戏和 UI 设置（例如棋盘大小、卡片主题、版式和相关选项）。",
+            "语言/区域设置偏好。",
+            "浅色或深色外观偏好。",
+            "进度和统计数据（例如任务进度、总体进度、应用程序记录的最佳时间或分数）。",
+            "您使用的游戏助手（例如提示使用计数器或连续数据（如果适用）。",
+            "用于应用内奖励或会话的计时元数据（例如上次会话时间戳）（如果启用了这些功能）。",
+            "您在应用程序中配置的可选辅助功能相关文本覆盖。",
+            "未订阅时使用高级功能的已完成游戏的<strong>local counter</strong>，仅用于强制执行应用程序的有限免费试用高级功能选项。"
+          ],
+          "paragraphsAfter": [
+            "除非您清除应用程序数据、清除网站数据（浏览器）或卸载应用程序，否则此数据将保留在您的设备上。我们无法远程访问它，因为我们不运行与您的安装相关的游戏后端。"
+          ]
+        },
+        {
+          "title": "3.2 照片和媒体（高级功能）",
+          "paragraphs": [
+            "如果您在卡片上使用自定义图片，该应用程序将访问您的照片库或相机<strong>only when you initiate</strong>该流程。选定的图像存储在 <strong>local app storage</strong> 中（或者，在某些浏览器版本中，作为浏览器内数据，例如数据 URL），以便它们可以显示在卡片上。我们不会将您的自定义图像作为应用程序的一部分进行云上传。"
+          ]
+        },
+        {
+          "title": "3.3 购买和订阅",
+          "paragraphs": [
+            "购买由<strong>Apple App Store</strong>或<strong>Google Play</strong>处理。我们使用 <strong>RevenueCat</strong> 来验证应用程序内的权利和订阅状态。 RevenueCat 可能会处理提供该服务所需的标识符和购买事件。 Apple 和 Google 可能会将购买行为与您的商店帐户关联起来。"
+          ],
+          "links": [
+            {
+              "label": "Apple 隐私政策",
+              "href": "https://www.apple.com/legal/privacy/"
+            },
+            {
+              "label": "Google 隐私政策",
+              "href": "https://policies.google.com/privacy"
+            },
+            {
+              "label": "RevenueCat",
+              "href": "https://www.revenuecat.com/privacy"
+            }
+          ]
+        },
+        {
+          "title": "3.4 设备功能",
+          "paragraphs": [
+            "应用程序可以使用设备功能，例如<strong>haptics</strong>、<strong>status bar</strong>样式或<strong>keyboard</strong>行为。这些功能在本地用于改善体验，我们不会用来构建您的个人资料。"
+          ]
+        },
+        {
+          "title": "3.5 分析和崩溃报告",
+          "paragraphs": [
+            "根据本政策发布的应用程序的代码库和依赖项<strong>not</strong>包括集成的第三方分析或崩溃报告服务。诊断日志记录可能出现在 <strong>development builds only</strong> 中，并且不适用于生产最终用户。如果我们稍后添加分析或崩溃报告，我们将更新本政策，并在法律要求的情况下征求您的同意。"
+          ]
+        },
+        {
+          "title": "3.6 链接和外部内容",
+          "paragraphs": [
+            "应用程序可能会在您的浏览器或应用程序内浏览器视图中打开网页（例如法律文档或订阅管理）。这些网站由第三方运营，并有自己的隐私惯例。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4。法律依据（欧洲经济区/英国用户）",
+      "paragraphs": [
+        "如果适用法律需要法律依据：我们会与您一起将购买相关数据处理至<strong>perform our contract</strong>（提供高级功能）；我们在操作和保护应用程序时根据 <strong>your use of the App</strong> 以及相关的 <strong>legitimate interests</strong> 处理本地应用程序数据，并与您的权利相平衡。"
+      ]
+    },
+    {
+      "heading": "5。保留",
+      "paragraphs": [
+        "本地数据将保留，直到您删除它或卸载应用程序（或清除网络构建的浏览器存储）。 Apple、Google 或 RevenueCat 持有的记录将按照其政策中的说明进行保留。"
+      ]
+    },
+    {
+      "heading": "6。儿童",
+      "paragraphs": [
+        "该应用程序不针对您所在地区要求同意未经父母许可进行数据处理的年龄以下的儿童。如果您认为我们不适当地收集了儿童的个人信息，请联系我们，我们将采取合理措施解决该问题。"
+      ]
+    },
+    {
+      "heading": "7.您的权利",
+      "paragraphs": [
+        "根据您所在的位置，您可能有权访问、更正、删除或限制某些处理，或者反对或移植数据。通过上面的电子邮件联系我们。您还可以向当地的数据保护机构提出投诉。对于购买和收据数据，Apple 或 Google 可能是其政策规定的主要联系人。"
+      ]
+    },
+    {
+      "heading": "8.国际传输",
+      "paragraphs": [
+        "我们的服务提供商可能会在您所在国家/地区以外的国家/地区处理数据。如有需要，他们会使用适当的保障措施（例如标准合同条款）。"
+      ]
+    },
+    {
+      "heading": "9.变更",
+      "paragraphs": [
+        "我们可能会不时更新本政策。我们将在此页面上发布新版本并更新“上次更新”日期。更改后继续使用应用程序意味着您在法律允许的范围内接受更新后的政策。"
+      ]
+    },
+    {
+      "heading": "10.联系方式",
+      "paragraphs": [
+        "问题：<a href=\"mailto:supp0rt.serg@yandex.com\">supp0rt.serg@yandex.com</a>"
+      ]
+    }
+  ]
+}

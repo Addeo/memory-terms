@@ -57,23 +57,47 @@ code {
   opacity: 1;
 }
 
-.lang {
+#lang-nav {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
 }
 
-.lang a {
-  text-decoration: none;
-  padding: 0.2rem 0.55rem;
-  border-radius: 0.35rem;
+.lang-select-label {
   opacity: var(--muted);
 }
 
-.lang a[aria-current='page'] {
-  opacity: 1;
-  font-weight: 600;
-  background: rgba(127, 127, 127, 0.15);
+.lang-select {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  max-width: 11rem;
+}
+
+.notice {
+  font-size: 0.88rem;
+  opacity: var(--muted);
+  padding: 0.65rem 0.75rem;
+  border-left: 3px solid var(--border);
+  margin-bottom: 1.25rem;
+}
+
+.error {
+  color: #b00020;
+}
+
+html[dir='rtl'] ul {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+html[dir='rtl'] .notice {
+  border-left: none;
+  border-right: 3px solid var(--border);
 }
 
 h1 {
